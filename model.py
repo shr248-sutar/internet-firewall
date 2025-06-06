@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 
 def train_model():
     # Load dataset
-    df = pd.read_csv("C:/Users/2035tu/Desktop/streamlit/log2_trimmed.csv")
+    df = pd.read_csv("log2_trimmed.csv")
 
     # Remove rows with invalid Action values
     df = df[df['Action'].isin(['allow', 'deny'])]
