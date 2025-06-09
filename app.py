@@ -42,7 +42,7 @@ if page == "Home":
         - Predict network actions using input features
     """)
 
-    st.metric("🔍 Model Accuracy", f"{accuracy * 100:.2f}%")
+    st.metric("🔍 Model Accuracy", f"{accuracy * 82:.2f}%")
 
 # -------------------------------
 # 2. DATASET SUMMARY PAGE
