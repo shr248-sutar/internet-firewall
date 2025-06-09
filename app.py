@@ -22,7 +22,7 @@ model, accuracy = load_model()
 # Cache dataset loading
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:/Users/2035tu/Desktop/streamlit/log2_trimmed.csv")
+    df = pd.read_csv("log2_trimmed.csv")
     df = df[df['Action'].isin(['allow', 'deny'])]
     return df
 
